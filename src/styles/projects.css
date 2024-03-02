@@ -1,0 +1,37 @@
+.projects {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.projects h2 {
+    color: #EC632C;
+    border-bottom: 1px solid #EC632C;
+    padding-bottom: 10px;
+}
+
+.project-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.project {
+    margin: 40px;
+    width: 250px;
+}
+
+.project p {
+    color: #D4D3CE;
+}
+
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    .project {
+        width: 100%;
+    }
+}

@@ -1,0 +1,90 @@
+.about {
+    height: 100%;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.concept {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.concept p {
+    color: #D4D3CE;
+    width: 50%;
+    margin: 0;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: lighter;
+}
+
+h3 {
+    margin: 30px;
+    color: #EC632C;
+    padding: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.cards {
+    position: relative;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cards img {
+    position: absolute;
+    height: 200px;
+    max-width: 200px;
+    top: -12.5%;
+    right: 35%;
+    z-index: 1;
+    margin: 40px;
+    border-radius: 1em;
+}
+
+.cards span {
+    position: relative;
+    height: 200px;
+    width: 150px;
+    border-radius: 0;
+    background-color: #EC632C;
+    border-radius: 1em;
+}
+
+.about a {
+    text-decoration: none;
+    font-size: 24px;
+    border-radius: 50px;
+    margin: 50px;
+}
+
+.about a span:last-child {
+    height: 50px;
+    width: 50px;
+}
+
+.about h2 {
+    margin: 30px;
+    border-bottom: 1px solid #EC632C;
+    color: #EC632C;
+    padding: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+@media (max-width: 768px) {
+    .content {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 20px;
+    }
+}
