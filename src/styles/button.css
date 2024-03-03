@@ -12,12 +12,13 @@
     background-color: #EC632C;
     border: none;
     cursor: pointer;
-    transition: background-color 0.3s, color 0.3s; /* Smooth transition effect */
+    transition: background-color 0.3s, color 0.3s;
+    animation: transform 0.3s ease-in-out;
 
     span:first-child {
         color: #D4D3CE;
         margin-right: 20px;
-        transition: color 0.3s; /* Smooth transition effect */
+        transition: color 0.3s;
     }
 
     span:last-child {
@@ -31,12 +32,13 @@
         align-items: center;
         justify-content: center;
         background-color: #D4D3CE;
-        transition: color 0.3s; /* Smooth transition effect */
+        transition: color 0.3s;
     }
 }
 
 .button:hover {
     background-color: #D4D3CE;
+    transform: scale(1.05);
 
     span:first-child {
         color: #EC632C;
