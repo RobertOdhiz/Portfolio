@@ -16,12 +16,13 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: flex-start;
     padding: 20px;
 }
 
 .project {
-    margin: 40px;
-    width: 250px;
+    margin: 20px;
+    width: 300px;
 }
 
 .project p {

@@ -5,6 +5,7 @@ import Resume from '../assets/Robert_Odhiambo_Resume.pdf'
 function About() {
   return (
     <div className='about'>
+        <h2>About Me</h2>
         <div className='expert'>
             <div className='about-item'>
                 <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-code-slash" viewBox="0 0 16 16">

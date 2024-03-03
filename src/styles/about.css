@@ -67,5 +67,13 @@ h4 {
 }
 
 @media (max-width: 768px) {
-    
+    .about-item {
+        width: 100%; /* Change to 100% for full-width on smaller screens */
+        box-sizing: border-box; /* Add box-sizing to include padding in the width */
+        padding: 20px; /* Adjust padding for better spacing on smaller screens */
+    }
+
+    .expert {
+        flex-direction: column;
+    }
 }

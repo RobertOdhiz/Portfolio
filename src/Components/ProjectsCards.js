@@ -23,7 +23,7 @@ function ProjectsCards() {
         <div className='project-cards'>
             {Projects.map((item, key) => (
             <div className='project' key={key}>
-                <Card title={item.name} link={item.link} image={item.image}/>
+                <Card title={item.name} link={item.link} image={item.image} className='card' />
                 <p className={expandedProjects.includes(key) ? 'expanded' : ''}>
                 {item.description}
                 </p>
