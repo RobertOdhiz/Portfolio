@@ -23,8 +23,8 @@ function About() {
                 </svg>
                 <h4>Electrical Engineer</h4>
                 <p>
-                    Currently pursuing my Degree in Electrical and Electronics Engineering with the aim of delving deeper into systems design,
-                    development and maintenance.
+                    An Electrical and Electronics Engineer with experience in systems design,
+                    development and maintenance. I have also been working on Embedded systems development and hardware design in order to improve my skills.
                 </p>
             </div>
         </div>
